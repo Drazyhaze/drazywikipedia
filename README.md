@@ -1,8 +1,8 @@
 # webpack-starter-template
-A starting template with webpack, stylus, yeticss, and jade.
+A starting template with webpack, stylus, yeticss, jade, and jQuery.
 
 #####Clone the repo to a new directory
-`git clone git@github.com:zcassini/fcc-twitchtv.git PROJECTNAME`
+`git clone git@github.com:drazyhaze/webpack-starter-template.git PROJECTNAME`
 
 ##### Create a repo on Github using PROJECTNAME and set origin
 ```
