@@ -1,5 +1,20 @@
 include includes/header
 
 body
-    h1 My Site
-    p Welcome to my website. 
+    h1.textcenter Drazy's Wikipedia Viewer
+    p Built for Free Code Camp Front End Certification
+    .container
+      .grid-flex-container.margincenter
+        .grid-flex-cell
+          input.form-input#searchbox(type='text')
+      .grid-flex-container.margincenter      
+        .grid-flex-cell
+          a(href="https://en.wikipedia.org/wiki/Special:Random" target="_blank")
+            button.button.mypadding.btnright
+              span Random Wiki
+          button.button.mypadding.btnleft#searchbtn
+            span Search Wikipedia
+    .container
+      .grid-flex-container.marginauto 
+        #results
+          .panels     
