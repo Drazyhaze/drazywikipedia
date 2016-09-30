@@ -30,7 +30,7 @@ function search(keyword) {
             var summary = '<p class="wikisnip">' + jsonp[2][i] + '</p>'
             urls.push(jsonp[3][i])
 
-            $('#results').append('<div class="grid-flex-container panels" id="' + i + '">' + resTitle + '<br />' + summary + '</div>' )
+            $('#results').append('<div class="grid-flex-container panels" id="' + <a> + i + '">' + resTitle + '<br />' + summary + </a> + '</div>' )
             $(`#${i}`).on('click', function() {
                 openPage(urls[$(this).attr('id')])
             })
